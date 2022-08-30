@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <centre>
+    <h1>Registraion Form</h1></centre>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="name">First Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="First name"></td>
+
+          <td><label for="name">Last Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="Last name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+
+     <td> <input type="text" name="email" id="email" placeholder="example@gmail.com"></td>
+
+          <td><label for="phoneNumber">Phone Number:</label></td>
+          <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+
+        <tr>
+          <td><label for="Batch no">Batch no</label></td>
+          <td>
+            <select name="Batch" id="Batch">
+              <option value="">Select Batch</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="3">3</option>
+
+            </select>
+          </td>
+
+          <td><label for="Current Module">Current Module</label></td>
+          <td>
+            <select name="module" id="module">
+              <option value="">Select module</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+
+            </select>
+          </td>
+        </tr>
+        <tr><td>
+        <p><input type="checkbox" name="terms"> Agree to <u> Terms and Conditions</u></p>
+          </td></tr>
+        <tr>
+          <td><button type="submit"class="submit">Submit</button>
+
+
+          </td>
+      </table>
+    </form>
+  </div>
+
+</body>
+
+</html>
